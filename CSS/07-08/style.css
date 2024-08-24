@@ -1,0 +1,19 @@
+p{
+    background-color: blue;
+}
+
+p{
+    background-color: brown;
+}
+
+.firstHeading{
+    border: 10px dashed black;
+}
+
+/* #firstHeading{
+    border: 10px solid black;
+} */
+
+#heading{
+    border: 5px dotted black;
+}
