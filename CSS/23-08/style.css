@@ -1,0 +1,342 @@
+/* flex direction : row */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/*  flex direction row */
+
+/* .textCenter {
+    text-align: center;
+}
+
+
+h3 {
+    color: #fccb0642;
+    font-size: 28px;
+}  */
+
+.maindiv{
+      display: flex; 
+    flex-direction: row;  
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: flex-start;
+    justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between;  */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+     /* align-items: center;
+     align-items: flex-start;
+     align-items: flex-end; */
+}
+/* .div-1{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+}
+
+.maindiv div:nth-child(1){
+     background-color: black;      
+}
+.maindiv div:nth-child(2){
+    background-color: rebeccapurple;      
+}
+.maindiv div:nth-child(3){
+    background-color: palevioletred;      
+}
+.maindiv div:nth-child(4){
+    background-color: peru;      
+}
+.maindiv div:nth-child(5){
+    background-color: palegreen;      
+}
+.maindiv div:nth-child(6){
+    background-color:brown;      
+} */
+
+
+/* row recever */
+/* .textCenter {
+    text-align: center;
+}
+
+
+h2 {
+    color: #fccb0680;
+    font-size: 28px;
+} 
+.divs {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+}  */
+
+   #row-reverse {
+    /* height: 800px; */
+     flex-direction: row-reverse;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; 
+     justify-content: flex-start; */
+    /* justify-content: flex-end;  */
+     /* justify-content: center;  */
+    /* justify-content: space-between;  */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+     /* align-items: center;
+     align-items: flex-start;
+     align-items: flex-end; */
+}
+  
+ /* .border div:nth-child(1){
+    background-color: black;      
+}
+.border div:nth-child(2){
+    background-color: blue;      
+}
+.border div:nth-child(3){
+    background-color: blueviolet;      
+}
+.border div:nth-child(4){
+    background-color:peru;      
+}
+.border div:nth-child(5){
+    background-color: palevioletred;      
+} 
+ */
+
+
+
+/* flex direction column */
+
+/* .textCenter {
+    text-align: center;
+}
+
+
+h3 {
+    color: #fccb0680;
+    font-size: 28px;
+} */
+
+.container{
+     height: 800px;
+    display: flex; 
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+     /* flex-wrap: wrap; */
+     /* flex-wrap: wrap-reverse; */
+    /* justify-content: flex-start;
+    justify-content: flex-end;  */
+    /* justify-content: center; */
+    /* justify-content: space-between;  */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+     /* align-items: center;
+     align-items: flex-start;
+     align-items: flex-end; */
+}
+.item{
+    height: 100px;
+    width: 100px;   
+    font-size: 40px;
+    color: white;
+     
+}
+
+/* .container div:nth-child(1){
+    background-color: black;      
+}
+
+.container div:nth-child(2){
+    background-color: palegreen;      
+}
+
+.container div:nth-child(3){
+    background-color: palevioletred;      
+}
+
+.container div:nth-child(4){
+    background-color: peru;      
+}
+
+.container div:nth-child(5){
+    background-color: blueviolet;      
+}
+
+.container div:nth-child(6){
+    background-color: brown;      
+} */
+
+
+/* flex direction column reverse */
+
+/* .textCenter {
+    text-align: center;
+}
+
+
+h4 {
+    color: #FCCB06;
+    font-size: 28px;
+}
+
+
+.divs {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+} */
+
+   #column-reverse {
+     height: 800px;
+    /* flex-direction: column-reverse;
+    display: flex;
+    flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; 
+     justify-content: flex-start; */
+    /* justify-content: flex-end;  */
+     /* justify-content: center;  */
+    /* justify-content: space-between;  */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+     /* align-items: center;
+     align-items: flex-start;
+     align-items: flex-end; */
+}
+  
+/* .border div:nth-child(1){
+    background-color: black;      
+}
+.border div:nth-child(2){
+    background-color: blue;      
+}
+.border div:nth-child(3){
+    background-color: blueviolet;      
+}
+.border div:nth-child(4){
+    background-color:peru;      
+}
+.border div:nth-child(5){
+    background-color: palevioletred;      
+} */
+
+
+/* Justify Content Properties */
+
+.flex-start {
+    justify-content: flex-start;
+
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
+/* Align Item Properties */
+
+.alignStart {
+    align-items: flex-start;
+    height: 400px;
+}
+
+.alignEnd {
+    align-items: flex-end;
+    height: 400px;
+}
+
+.alignCenter {
+    align-items: center;
+    height: 400px;
+}
+
+/* Flex Direction Column Justify Content Behaviour */
+
+.columnJustifyStart {
+    height: 1000px;
+    justify-content: flex-start;
+}
+
+.columnJustifyEnd {
+    height: 1000px;
+    justify-content: flex-end;
+}
+
+.columnJustifyCenter {
+    height: 1000px;
+    justify-content: center;
+}
+
+.columnJustifySpaceBetween {
+    height: 1000px;
+    justify-content: space-between;
+}
+
+.columnJustifySpaceEvenly {
+    height: 1000px;
+    justify-content: space-evenly;
+}
+
+.columnJustifySpaceAround {
+    height: 1000px;
+    justify-content: space-around;
+}
+
+/* Flex Direction Column Align Items Behaviour */
+
+.columnAlginStart {
+    align-items: flex-start;
+}
+
+.columnAlginEnd {
+    align-items: flex-end;
+}
+
+.columnAlginCenter {
+    align-items: center;
+}
+
+.flex div:nth-child(1) {
+    /* order: 5; */
+    background-color: blueviolet;
+}
+
+.flex div:nth-child(2) {
+    background-color: #e6394763;
+}
+.flex div:nth-child(3) {
+    /* order: 1; */
+    background-color: palegreen;
+}
+.flex div:nth-child(4) {
+    background-color:palevioletred;
+}
+.flex div:nth-child(5) {
+    /* order: 3; */
+    background-color: rgb(192, 14, 192);
+}
