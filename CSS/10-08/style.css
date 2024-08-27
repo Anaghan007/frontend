@@ -1,0 +1,74 @@
+/* .border{
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    border: 5px solid black;
+    border-radius: 20px;
+    border-radius: 20px 50px;
+    border-radius: 20px 50px 80px;
+    border-radius: 20px 60px 100px 150px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-radius: 100%;
+} */
+
+.vertical-alignment{
+    font-size: 80px;
+    text-decoration: overline;
+}
+
+.vertical-alignment img{
+    vertical-align: middle;
+    vertical-align: baseline;
+    vertical-align: top;
+    vertical-align: bottom;
+    vertical-align: sub;
+    vertical-align: super;
+    vertical-align: text-bottom;
+    vertical-align: text-top;
+}
+
+.text-decoration{
+    font-size: 30px;
+    text-decoration-line: line-through;
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+    text-decoration-color: brown;
+    text-decoration-style:dashed ;
+    /* text-decoration-thickness: 5px;
+    text-decoration: 10px solid overline; */
+}
+
+/* .text-transform{
+    font-size: 40px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-indent: 100px;
+    text-shadow: 5px 5px 3px black;
+    line-height: 60px;
+    word-spacing: 100px;
+    letter-spacing: 100px;
+    white-space: pre;
+    white-space: wrap;
+    white-space: nowrap;
+} */
+
+/*font props*/
+
+/*calc() Unit*/
+
+.font-size{
+    font-size: 300%;
+    font-size: calc(5vw + 5px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.googlefonts{
+    font-family: "montserrat" sans-serif;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-style: italic;
+    /* font:italic 50px sans-serif; */
+}
