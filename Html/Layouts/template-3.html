@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+
+
+        }
+
+        .container {
+            width: 1024px;
+            margin: 0px auto;
+            font-family: sans-serif;
+        }
+
+        .container .header .company {
+            border: 1px solid black;
+            background-color: khaki;
+            padding: 50px 25px;
+            text-align: left;
+
+
+            
+            /* display: flex;
+            justify-content: space-between;
+            align-items: center; */
+        }
+
+        .container .header .navbar {
+            background-color: rgb(69, 137, 160);
+            padding: 20px 0;
+        }
+
+        .container .header .navbar ul {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .container .header .navbar ul li {
+            list-style: none;
+        }
+
+        .container .header .navbar ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .container .header .company .company-img img {
+            width: 150px;
+        }
+
+        .main {
+            margin-top: 25px;
+        }
+
+        .main .section1 {
+            display: flex;
+        }
+
+        .main .section1 .aside {
+            border: 1px solid rgb(168, 44, 168);
+            width: 650px;
+        }
+
+        .main .section1 .aside {
+            padding: 15px 10px;
+        }
+
+        /* .main .section1 .aside ul {
+            padding: 15px 10px;
+        } */
+
+        .main .section1 .aside ul li {
+            list-style: none;
+        }
+
+        .main .section1 .gallery {
+            margin-left: 15px;
+        }
+
+        .main .section1 .article {
+            margin-left: 15px;
+        }
+
+        .main .section1 .gallery h4 {
+            font-size: 22px;
+        }
+
+        .main .section1 .article {
+            display: flex;
+        }
+
+        .main .section1 .article #article1 h4,
+        .main .section1 .article #article2 h4 {
+            font-size: 22px;
+        }
+        
+        .container .footer {
+            background-color: rgb(45, 131, 45);
+            padding: 25px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="company">
+                <div class="company-name">
+                    <h1>Enter Site Title</h1>
+                    <h4>Enter Site Slogan</h4>
+                </div>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="javascript:void(0)">Home</a></li>
+                    <li><a href="javascript:void(0)">Email</a></li>
+                    <li><a href="javascript:void(0)">New Page 1</a></li>
+                    <li><a href="javascript:void(0)">New Page 2</a></li>
+                    <li><a href="javascript:void(0)">New Page 3</a></li>
+                    <li><a href="javascript:void(0)">New Page 4</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="section1">
+                <aside class="aside">
+                    <h4>>> Main Menu</h4>
+                    <ul>
+                        <li>Menu Item 1</li>
+                        <li>Menu Item 2</li>
+                        <li>Menu Item 3</li>
+                        <li>Menu Item 4</li>
+                        <li>Menu Item 5</li>
+                        <li>Menu Item 6</li>
+                        <li>Menu Item 7</li>
+                    </ul>
+                </aside>
+                <div class="gallery">
+                    <h4>Gallery</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, iste amet. Possimus quis laboriosam quibusdam expedita, nobis dolores nesciunt? Asperiores hic velit ut quasi, rem tempora dolore repellendus officiis sed incidunt quibusdam ex sunt ipsam. Dolor a amet facere
+                    asperiores, mollitia suscipit! Nemo voluptate blanditiis repellendus exercitationem facilis nulla perspiciatis atque architecto? Nesciunt fugiat sed cumque et, ullam doloribus. At alias totam itaque veritatis, doloremque cum necessitatibus? Explicabo porro, error similique, nihil ab velit assumenda molestias minima nam et quidem.</p>
+                </div>
+            </div>
+            <div class="section1">
+                <aside class="aside">
+                    <h4>>> Block</h4>
+                    <p>Enter Block content here</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, quasi! Sint dolorem debitis esse itaque ea praesentium alias.</p>
+                </aside>
+                <div class="article">
+                    <article id="article1">
+                        <h4>Subscription</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, nisi quae animi quidem officiis error, quaerat est at, cum cupiditate temporibus. Accusamus doloremque, laudantium iste placeat est, minima quibusdam expedita facere illo, molestiae dolore perspiciatis quo qui repellendus provident porro nesciunt assumenda maiores suscipit corporis facilis? Aspernatur necessitatibus similique harum!</p>
+                        <button>Read more</button>
+                    </article>
+                    <article id="article2">
+                        <h4>Other Services</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, nisi quae animi quidem officiis error, quaerat est at, cum cupiditate temporibus. Accusamus doloremque, laudantium iste placeat est, minima quibusdam expedita facere illo, molestiae dolore perspiciatis quo qui repellendus provident porro nesciunt assumenda maiores suscipit corporis facilis? Aspernatur necessitatibus similique harum!</p>
+                        <button>Read more</button>
+                    </article>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer" style="text-align: center; margin-top: 15px;">
+            <p>Copyright &copy; 2014</p>
+        </footer>
+    </div>
+</body>
+
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Site Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d2b48c;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding-bottom: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #d2b48c;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        .navbar {
+            background-color: #f5f5f5;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .content {
+            display: flex;
+            margin: 0 20px;
+        }
+
+        .sidebar {
+            width: 25%;
+            margin-right: 20px;
+        }
+
+        .menu, .block {
+            background-color: #f5f5f5;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .menu h2, .block h2 {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu ul li {
+            margin: 10px 0;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .main-content {
+            width: 75%;
+        }
+
+        .gallery, .subscription, .services {
+            margin-bottom: 20px;
+        }
+
+        .gallery h2, .subscription h2, .services h2 {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #333;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f5f5f5;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Enter Site Title</h1>
+            <p>Enter Site Slogan</p>
+        </header>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Email</a></li>
+                <li><a href="#">New Page 1</a></li>
+                <li><a href="#">New Page 2</a></li>
+                <li><a href="#">New Page 3</a></li>
+                <li><a href="#">New Page 4</a></li>
+            </ul>
+        </nav>
+        
+        <div class="content">
+            <aside class="sidebar">
+                <div class="menu">
+                    <h2>Main Menu</h2>
+                    <ul>
+                        <li><a href="#">Menu Item 1</a></li>
+                        <li><a href="#">Menu Item 2</a></li>
+                        <li><a href="#">Menu Item 3</a></li>
+                        <li><a href="#">Menu Item 4</a></li>
+                        <li><a href="#">Menu Item 5</a></li>
+                        <li><a href="#">Menu Item 6</a></li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h2>Block</h2>
+                    <p>Enter block content here...</p>
+                </div>
+            </aside>
+            
+            <main class="main-content">
+                <div class="gallery">
+                    <h2>Gallery</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis ligula eget dolor. Aenean consequat ligula eget odio. Aenean convallis ligula eget dolor. Aenean consequat ligula eget odio. Aenean convallis ligula eget dolor.</p>
+                </div>
+                <div class="subscription">
+                    <h2>Subscription</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis ligula eget dolor. Aenean convallis ligula eget dolor. Aenean consequat ligula eget odio. Aenean convallis ligula eget dolor.</p>
+                    <a href="#" class="read-more">Read more</a>
+                </div>
+                <div class="services">
+                    <h2>Other Services</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis ligula eget dolor. Aenean convallis ligula eget dolor. Aenean consequat ligula eget odio. Aenean convallis ligula eget dolor.</p>
+                    <a href="#" class="read-more">Read more</a>
+                </div>
+            </main>
+        </div>
+        
+        <footer>
+            <p>Copyright &copy; 2014.</p>
+        </footer>
+    </div>
+</body>
+</html> -->
