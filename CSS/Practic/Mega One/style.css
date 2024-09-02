@@ -62,8 +62,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-style: normal;
-    justify-content: space-evenly;
-
+    justify-content: center;
 }
 
 .menubar2 .Home:hover{
