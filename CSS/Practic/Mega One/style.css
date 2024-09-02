@@ -6,6 +6,9 @@
 .navigation
 {
     border: #ff007f;
+    height: 150px;
+    width: 100%;
+    background-color: #FFFFFF;
 }
 
 .navbar
@@ -166,6 +169,14 @@
     padding: 0 17px;
     display: inline-block;
 }
+
+.option-2 :hover
+{
+    border:1px solid #d7d7d7;
+    transition: 0.5s;
+    color: #454545;
+}
+
 .option-3 p
 {
     border: 1px solid #ECECEC;
@@ -174,6 +185,14 @@
     padding: 0 17px;
     display: inline-block;
 }
+
+.option-3 :hover
+{
+    border:1px solid #d7d7d7;
+    transition: 0.5s;
+    color: #454545;
+}
+
 .option-4 p
 {
     border: 1px solid #ECECEC;
@@ -182,6 +201,13 @@
     padding: 0 17px;
     display: inline-block;
     border-radius: 0 6px 6px 0;
+}
+
+.option-4 :hover
+{
+    border:1px solid #d7d7d7;
+    transition: 0.5s;
+    color: #454545;
 }
 
 .img img
