@@ -311,6 +311,12 @@
     font-size: 26px;
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+}
+
+.container-3 p
+{
+    margin-left: 165px;
 }
 
 .img-2 img
@@ -373,6 +379,7 @@
     color: white;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
 }
 
 .container-4 p
@@ -441,5 +448,18 @@
     background: linear-gradient(to bottom, #aa2fb5 0%, #f1762c 93%) !important;
     border-radius: 50%;
     color: white;
+    transition: 0.5s;
+}
+
+.con-img
+{
+    display: flex;
+    margin-top: -500px;
+    justify-content: center;
+}
+
+.con-img img:hover
+{
+    transform: scale(1.05);
     transition: 0.5s;
 }
