@@ -79,6 +79,7 @@
 .container 
 {
     font-family: 'Poppins', sans-serif;
+    background-image: url(container.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -256,7 +257,7 @@
 .container-2
 {
     font-family: 'Poppins', sans-serif;
-    /* background-image: url(assets/asset\ 36.jpeg); */
+    background-image: url(container2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
