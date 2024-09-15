@@ -1,7 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif
 }
+
+/* trending */
+
+.container{
+    max-width: 1600px;
+    margin-inline: auto;
+}
+
+/* Header start */
 
 .navigation
 {
@@ -15,6 +25,7 @@
 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 20px;
 }
 
@@ -58,6 +69,8 @@
     padding: 10px;
 }
 
+/* Header end */
+
 .option 
 {
     display: flex;
@@ -75,43 +88,51 @@
     transition: 0.5s;
 
 }
-
-.container 
-{
-    font-family: 'Poppins', sans-serif;
+.banner{
     background-image: url(container.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    height: 100lvh;
+}
+
+.trending 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 740px;
-    visibility: inherit;
+    height: 100lvh;
     color: #FFFFFF;
     text-align: center;
 }
 
-.container h6
+.trending h6
 {
     color: #d7d7d7;
     font-size: 12px;
     font-weight: 500;
 }
 
-.container h1
+.trending h1
 {
     font-size: 40px;
     font-weight: 500;
 }
 
-.container p
+.trending p
 {
     font-size: 12px;
     color: #d7d7d7;
 }
 
-.container h4
+.trending h4
 {
     font-size: 11px;
+}
+
+.mobilemenu{
+    display: none;
 }
 
 .box-2
@@ -124,6 +145,7 @@
     display: inline-block;
     font-weight: 500;
     border: none;
+    margin-top: 10px;
 }
 
 .box-2:hover
@@ -148,7 +170,6 @@
     font-size: 16px;
     color: #454545;
     padding-bottom: 20px;
-    font-family: "Open Sans";
     text-align: center !important;
 }
 
@@ -211,6 +232,26 @@
     color: #454545;
 }
 
+.innerCard{
+   text-align: center;
+   max-width: 450px;
+   height: auto;
+   overflow: hidden;
+}
+
+.innerCard img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardrow{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
 .img img
 {
     height: 300px;
@@ -238,6 +279,10 @@
     padding: 0 200px;
 }
 
+.innerCard p{
+
+}
+
 .text-4
 {
     display: flex;
@@ -247,14 +292,14 @@
     padding: 0 300px;
 }
 
-.container-2 
+.collection 
 {
     width: 100%;
     height: 500px;
     text-align: center;
 }
 
-.container-2
+.collection
 {
     font-family: 'Poppins', sans-serif;
     background-image: url(container2.jpeg);
@@ -266,16 +311,16 @@
     visibility: inherit;
 }
 
-.container-2 h1
+.collection h1
 {
     font-size: 40px;
     margin-left: 600px;
 }
-.container-2 h6
+.collection h6
 {
     margin-left: 600px;
 }
-.container-2 p
+.collection p
 {
     margin-left: 600px;
     
@@ -302,7 +347,7 @@
     border: 1px solid black !important;
 }
 
-.container-3
+.arrivals
 {
     height: 500px;
     width: 100%;
@@ -314,7 +359,7 @@
     display: flex;
 }
 
-.container-3 p
+.arrivals p
 {
     margin-left: 165px;
 }
@@ -328,7 +373,6 @@
 .text-5
 {
     display: flex;
-    font-family: 'Poppins', sans-serif !important;
     font-size: 15px;
     padding: 0 200px;
     font-weight: 500;
@@ -370,7 +414,7 @@
     font-weight: 400;
 }
 
-.container-4 
+.aboutus 
 {
     height: 530px;
     width: 100%;
@@ -382,21 +426,21 @@
     margin-top: 50px;
 }
 
-.container-4 p
+.aboutus p
 {
     color: #888888;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
-.container-4 a 
+.aboutus a 
 {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
-.container-4 span
+.aboutus span
 {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
