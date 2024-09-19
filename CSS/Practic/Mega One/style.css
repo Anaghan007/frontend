@@ -103,8 +103,10 @@
     align-items: center;
     width: 100%;
     height: 100lvh;
-    color: #FFFFFF;
     text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
 }
 
 .trending h6
@@ -234,9 +236,10 @@
 
 .innerCard{
    text-align: center;
-   max-width: 450px;
+   max-width: 350px;
    height: auto;
    overflow: hidden;
+   padding: 0px 50px;
 }
 
 .innerCard img{
@@ -292,38 +295,50 @@
     padding: 0 300px;
 }
 
-.collection 
-{
-    width: 100%;
-    height: 500px;
-    text-align: center;
-}
-
-.collection
-{
-    font-family: 'Poppins', sans-serif;
+.banner2{
     background-image: url(container2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100%;
-    height: 500px;
-    visibility: inherit;
+    height: 60lvh;
 }
 
-.collection h1
+.trending2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60lvh;
+    color: black;
+    text-align: center;
+}
+
+.trending2 h6
+{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 300px;
+}
+
+.trending2 h1
 {
     font-size: 40px;
-    margin-left: 600px;
+    font-weight: bold;
+    margin-left: 300px;
 }
-.collection h6
+
+.trending2 p
 {
-    margin-left: 600px;
+    font-size: 12px;
+    color: black;
+    margin-left: 300px;
 }
-.collection p
+
+.trending2 h4
 {
-    margin-left: 600px;
-    
+    font-size: 11px;
 }
 
 .box
@@ -336,7 +351,8 @@
     background: black;
     font-weight: 500;
     border: none;
-    margin-left: 600px;
+    margin-left: 300px;
+    margin-top: 20px;
 }
 
 .box:hover
