@@ -523,3 +523,20 @@
     transform: scale(1.05);
     transition: 0.5s;
 }
+
+.wrapper {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper .item-1 .aboutUs h2 {
+    font-size: 18px;
+}
+
+.wrapper .item-1 .aboutUs p {
+    font-size: 14px;
+    border: 2px solid green;
+    margin: 20px 0 5px;
+}
