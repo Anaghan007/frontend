@@ -88,3 +88,45 @@ if (n1 > n2) {
 {
     console.log((5 > 3) && (-5 < 3));
 }
+
+// 11. Javascript Program to Check if a Number is Odd or Even
+
+{
+    function checkOddOrEven(number) 
+    {
+    if (number % 2 === 0) 
+        {
+        console.log(`${number} is Even`);
+    } 
+    else 
+    {
+        console.log(`${number} is Odd`);
+    }
+}
+    const number = 7; 
+    checkOddOrEven(number);
+}
+
+// 12. JavaScript Program to Find the Largest Among Three Numbers
+
+// function findLargestNumber(a, b, c) 
+// {
+//     if (a >= b && a >= c) 
+//     {
+//       return a;
+//     } 
+//     else if (b >= a && b >= c) 
+//     {
+//       return b;
+//     } 
+//     else 
+//     {
+//       return c;
+//     }
+//   }
+//   let num1 = 10;
+//   let num2 = 20;
+//   let num3 = 15;
+  
+//   let largest = findLargestNumber(num1, num2, num3);
+//   console.log("The largest number is: " + largest);  
